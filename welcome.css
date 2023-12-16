@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img[src*="assets/images/pngwing.com (2).png"]{
+    width: 200px;
+    height: 100px;
+}
+img{
+    width: auto;
+    height: 300px;
+}
+ nav{
+	text-align:right;
+} 
+  nav ul li{
+	display:inline-block;
+	margin-right:20px;
+}  
+p{
+    display: block;
+    margin-right: 20px;
+    padding-left: 600px;
+    text-align: start;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.container{
+    display: flex;
+}
+.paragraph p{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.container img{
+    text-align: right;
+}
+.para p{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.Koenigsegg h3{
+    text-align: right;
+}
+h3{
+    text-decoration-style: dashed;
+}
